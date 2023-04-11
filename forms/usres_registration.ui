@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>739</width>
+    <height>453</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="reg_label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>511</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Регестрация пользователя</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="name_surname">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ФИО</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="time_course">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>170</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Продолжительность курса</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="organization">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Организация</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="end">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>230</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Дата окончания</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="start">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Дата начала</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="contract">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>290</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>№Договора</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="time_days">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Продолжительность учебный день</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="mail">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>350</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E-mail</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="phone">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Номер телефона</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="direction">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>110</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Охрана труда</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Противопожарная безопасность</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Гражданская оборона и ЧС</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Промышленная безопасность</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Экологическая безопасность</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="ceep">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ ПО ОБЩИМ ВОПРОСАМ ОХРАНЫ ТРУДА И ФУНКЦИОНИРОВАНИЯ СИСТЕМЫ УПРАВЛЕНИЯ ОХРАНОЙ ТРУДА</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ БЕЗОПАСНЫМ МЕТОДАМ И ПРИЕМАМ ВЫПОЛНЕНИЯ РАБОТ ПРИ ВОЗДЕЙСТВИИ ВРЕДНЫХ И (ИЛИ) ОПАСНЫХ ПРОИЗВОДСТВЕННЫХ ФАКТОРОВ, ОПАСНОСТЕЙ, ИДЕНТИФИЦИРОВАННЫХ В РАМКАХ СИСТЕМЫ УПРАВЛЕНИЯ ОХРАНОЙ ТРУДА В ОРГАНИЗАЦИИ И ОЦЕНКИ ПРОФЕССИОНАЛЬНЫХ РИСКОВ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ БЕЗОПАСНЫМ МЕТОДАМ И ПРИЕМАМ ВЫПОЛЕНИЯ РАБОТ ПОВЫШЕННОЙ ОПАСНОСТИ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ ПО ОКАЗАНИЮ ПЕРВОЙ ПОМОЩИ ПОСТРАДАВШИМ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ ПО ОКАЗАНИЮ ПЕРВОЙ ПОМОЩИ ПОСТРАДАВШИМ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ПОДГОТОВКА ПРЕПОДАВАТЕЛЕЙ, ОБУЧАЮЩИЙ ПРИЕМАМ ОКАЗАНИЯ ПЕРВОЙ ПОМОЩИ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ОХРАНА ТРУДА ПРИ ВЫПОЛНЕНИИ РАБОТ НА ВЫСОТЕ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="add_bt">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>400</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Зарегестрировать</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="fire_ceep">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ПОЖАРНАЯ БЕЗОПАСНОСТЬ ДЛЯ ЛИЦ, ОТВЕТСТВЕННЫХ ЗА ПРОВЕДЕНИЕ ПРОТИВОПОЖАРНОГО ИНСТРУКТАЖА</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ПОВЫШЕНИЕ КВАЛИФИКАЦИИ ДЛЯ РУКОВОДИТЕЛЕЙ ОРГАНИЗАЦИЙ, ЛИЦ, НАЗНАЧЕННЫХ РУКОВОДИТЕЛЕМ ОРГАНИЗАЦИИ ОТВЕТСТВЕННЫМИ ЗА ОБЕСПЕЧЕНИЕ ПОЖАРНОЙ БЕЗОПАСНОСТИ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ МЕРАМ ПОЖАРНОЙ БЕЗОПАСНОСТИ ДЛЯ РУКОВОДИТЕЛЕЙ ЭКСПЛУАТИРУЮЩИХ И УПРАВЛЯЮЩИХ ОРГАНИЗАЦИЙ, ОСУЩЕСТВЛЯЮЩИХ ХОЗЯЙСТВЕННУЮ ДЕЯТЕЛЬНОСТЬ, СВЯЗАННУЮ С ОБЕСПЕЧЕНИЕМ ПОЖАРНОЙ БЕЗОПАСНОСТИ НА ОБЪЕКТАХ ЗАЩИТЫ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ МЕРАМ ПОЖАРНОЙ БЕЗОПАСНОСТИ ДЛЯ ОТВЕТСТВЕННЫХ ДОЛЖНОСТНЫХ ЛИЦ, ЗАНИМАЮЩИХ ДОЛЖНОСТИ ГЛАВНЫХ СПЕЦИАЛИСТОВ ТЕХНИЧЕСКОГО И ПРОИЗВОДСТВЕННОГО ПРОФИЛЯ, ДОЛЖНОСТНЫХ ЛИЦ, ИСПОЛНЯЮЩИХ ИХ ОБЯЗАННОСТИ, НА ОБЪЕКТАХ ЗАЩИТЫ, ПРЕДНАЗНАЧЕННЫХ ДЛЯ ПРОЖИВАНИЯ ИЛИ ВРЕМЕННОГО ПРЕБЫВАНИЯ 50 И БОЛЕЕ ЧЕЛОВЕК ОДНОВРЕМЕННО (ЗА ИСКЛЮЧЕНИЕМ МНОГОЭТАЖНЫХ ЖИЛЫХ ДОМОВ), ОБЪЕКТОВ ЗАЩИТЫ, ОТНЕСЕННЫХ К КАТЕГОРИЯМ ПОВЫШЕННОЙ ВЗРЫВОПОЖАРООПАСНОСТИ, ВЗРЫВОПОЖАРООПАСНОСТИ, ПОЖАРООПАНОСТИ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="human_ceep">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ ДОЛЖНОСТНЫХ ЛИЦ ГРАЖДАНСКОЙ ОБОРОНЫ, ВХОДЯЩИХ В СОСТАВ ЭВАКУАЦИОННЫХ КОМИССИЙ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ РАБОТНИКОВ СТРУКТУРНЫХ ПОДРАЗДЕЛЕНИЙ, УПОЛНОМОЧЕННЫХ НА РЕШЕНИЕ ЗАДАЧВ ОБЛАСТЬ ГРАЖДАНСКОЙ ОБОРОНЫ, ОРГАНИЗАЦИЙ, НЕ ОТНЕСЕННЫХ К КАТЕГОРИЯМ ПО ГО</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="industry_ceep">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ОБУЧЕНИЕ ПО ПРОМЫШЛЕННОЙ БЕЗОПАСНОСТИ</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="eco_ceep">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ЭКОЛОГИЧЕСКАЯ БЕЗОПАСНОСТЬ</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
