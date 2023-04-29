@@ -1,1 +1,1 @@
-# IT-party-project-RUCHKINA
+# IT-party-project
