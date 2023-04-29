@@ -1,0 +1,7 @@
+EmailHippo CORE - api
+smtplib
+sys
+csv
+pandas
+email.mime.text
+PyQt5
